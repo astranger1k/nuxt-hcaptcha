@@ -1,11 +1,11 @@
 {
-  "name": "@hcaptcha/vue-hcaptcha",
+  "name": "@astranger1k/nuxt-hcaptcha",
   "version": "0.3.1",
   "types": "types/index.d.ts",
-  "main": "./dist/@hcaptcha/vue-hcaptcha.umd.min.js",
-  "module": "./dist/@hcaptcha/vue-hcaptcha.common.js",
+  "main": "./dist/@astranger1k/nuxt-hcaptcha.umd.min.js",
+  "module": "./dist/@astranger1k/nuxt-hcaptcha.common.js",
   "files": [
-    "dist/@hcaptcha",
+    "dist/@astranger1k",
     "types/index.d.ts"
   ],
   "author": "Kieran Davies",
