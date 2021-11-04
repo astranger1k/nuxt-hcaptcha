@@ -6,7 +6,7 @@
 import {loadApiEndpointIfNotAlready} from './hcaptcha-script';
 
 export default {
-    name: 'NuxtHCaptcha',
+    name: 'VueHcaptcha',
     props: {
         sitekey: {
             type: String,
@@ -76,10 +76,8 @@ export default {
     },
     unmounted() {
         if (this.widgetId) {
-            this.hcaptcha.then(() => {
-                this.hcaptcha.reset(this.widgetId);
-                this.hcaptcha.remove(this.widgetId);
-            });
+            this.hcaptcha.reset(this.widgetId);
+            this.hcaptcha.remove(this.widgetId);
         }
     },
     methods: {
