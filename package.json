@@ -73,8 +73,5 @@
     "vue-component",
     "earn"
   ],
-  "peerDependencies": {
-    "vue": "^2.0.0"
-  },
   "description": "TYe"
 }
